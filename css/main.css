@@ -1,0 +1,90 @@
+.table td
+{
+    vertical-align: baseline;
+}
+
+.table th,
+.table .count,
+.table .actions
+{
+    text-align: center;
+}
+
+.table td.price
+{
+    text-align: right;
+}
+
+.table
+{
+    margin-bottom: 0;
+}
+
+.table th.name,
+.table th.price
+{
+    padding-left: 5%;
+}
+
+.table th.price,
+.table th.actions
+{
+    width: 25%;
+}
+
+.table .sort a
+{
+    display: inline-block;    
+    width: 12px;
+    height: 12px;
+    background: url(../img/triangleUp.png) center center no-repeat;
+}
+
+.table .sort,
+.table .count
+{
+    float: right;
+}
+
+.table .sort .down
+{
+    background: url(../img/triangleDown.png) center center no-repeat;
+}
+
+.hide
+{
+    display: none;
+}
+
+.search .close
+{
+    margin-left: -35px;
+    margin-right: 18px;
+    margin-bottom: 4px;
+}
+
+.modal-delete
+{
+    text-align: center;
+}
+
+.modal-delete .modal-title
+{
+    width: 100%;
+}
+
+.modal-delete .btn
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modal-delete .modal-footer
+{
+    justify-content: space-around;
+}
+
+.form-group .text-danger
+{
+    color:#dc3545!important;
+}
